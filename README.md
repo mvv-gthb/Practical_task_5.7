@@ -13,4 +13,4 @@ sudo chmod a+r /etc/apt/keyrings/docker.gpg_](p_1_3.png)
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update_](p_1_4.png)
+sudo apt-get update_](Pix/p_1_4.png)
