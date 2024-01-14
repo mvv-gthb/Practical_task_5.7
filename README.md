@@ -49,3 +49,27 @@ sudo apt-get update_](Pix/p_1_4.png)
 [_git push_](Pix/p_2_2.png)  
 
 ## 3. Создание Docker-образа для программы
+Из реестра скачан образ [python](Pix/p_3_1.png)  
+Создан [dockerfile](dockerfile)  
+Создан файл [requirements.txt](requirements.txt), содержащий инструкции по установке дополнительных библиотек  
+Собран образ  
+[_docker build -t ceaser_image ._](dockerfile_link)  
+Список образов  
+[_dokcer image ls_](dockerfile_link)  
+Запуск контейнера на основе созданного образа  
+[_docker run -it --name ceaser_container ceaser_image_](dockerfile_link)  
+
+[dockerfile_link]: Pix/p_3_2.png
+
+## 4. Запуск и тестирование Python-приложения в Docker-контейнере
+Запуск контейнера  
+[docker container start ceaser_container](container_link)  
+Подключение к контейнеру  
+[docker container attach ceaser_container](container_link)  
+Проверка работоспособности программы  
+[python ceaser.py](container_link)
+
+[container_link]: Pix/p_4_1.png
+
+
+## 5. Работа с Docker compose
