@@ -63,13 +63,14 @@ sudo apt-get update_](Pix/p_1_4.png)
 
 ## 4. Запуск и тестирование Python-приложения в Docker-контейнере
 Запуск контейнера  
-[docker container start ceaser_container](container_link)  
+[_docker container start ceaser_container_](container_link)  
 Подключение к контейнеру  
-[docker container attach ceaser_container](container_link)  
+[_docker container attach ceaser_container_](container_link)  
 Проверка работоспособности программы  
-[python ceaser.py](container_link)
+[_python ceaser.py_](container_link)
 
 [container_link]: Pix/p_4_1.png
 
+Синхронизация проекта с удаленным репозиторием
 
 ## 5. Работа с Docker compose
