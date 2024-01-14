@@ -43,7 +43,7 @@ sudo apt-get update_](Pix/p_1_4.png)
 
 ## 2. Разработка простой программы
 Клонирован репозиторий на локальный компьютер  
-_git clone https://github.com/mvv-gthb/Practical_task_5.7_
+[_git clone https://github.com/mvv-gthb/Practical_task_5.7_](Pix/p_2_1.png)  
 Добавлен файл _ceaser.py_, реализующий шифр Цезаря  
 Изменения отправлены в удаленный репозиторий  
-_git push_  
+[_git push_](Pix/p_2_2.png)  
