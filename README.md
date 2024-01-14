@@ -53,21 +53,21 @@ sudo apt-get update_](Pix/p_1_4.png)
 Создан [dockerfile](dockerfile)  
 Создан файл [requirements.txt](requirements.txt), содержащий инструкции по установке дополнительных библиотек  
 Собран образ  
-[_docker build -t ceaser_image ._](dockerfile_link)  
+[_docker build -t ceaser_image ._][dockerfile_link]  
 Список образов  
-[_dokcer image ls_](dockerfile_link)  
+[_dokcer image ls_][dockerfile_link]  
 Запуск контейнера на основе созданного образа  
-[_docker run -it --name ceaser_container ceaser_image_](dockerfile_link)  
+[_docker run -it --name ceaser_container ceaser_image_][dockerfile_link]  
 
 [dockerfile_link]: Pix/p_3_2.png
 
 ## 4. Запуск и тестирование Python-приложения в Docker-контейнере
 Запуск контейнера  
-[_docker container start ceaser_container_](container_link)  
+[_docker container start ceaser_container_][container_link]  
 Подключение к контейнеру  
-[_docker container attach ceaser_container_](container_link)  
+[_docker container attach ceaser_container_][container_link]  
 Проверка работоспособности программы  
-[_python ceaser.py_](container_link)
+[_python ceaser.py_][container_link]
 
 [container_link]: Pix/p_4_1.png
 
