@@ -42,3 +42,8 @@ sudo apt-get update_](Pix/p_1_4.png)
 [no_sudo_link]: Pix/p_1_10.png
 
 ## 2. Разработка простой программы
+Клонирован репозиторий на локальный компьютер  
+_git clone https://github.com/mvv-gthb/Practical_task_5.7_
+Добавлен файл _ceaser.py_, реализующий шифр Цезаря  
+Изменения отправлены в удаленный репозиторий  
+_git push_  
