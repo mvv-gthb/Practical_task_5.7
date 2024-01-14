@@ -28,3 +28,17 @@ sudo apt-get update_](Pix/p_1_4.png)
 [_docker-compose --version_][compose_link]  
 
 [compose_link]: Pix/p_1_9.png
+
+### Настройка Docker для работы без прав root
+Создание группы docker  
+[_sudo groupadd docker_][no_sudo_link]  
+Добавление пользователя в группу docker  
+[_sudo usermod -aG docker $USER_][no_sudo_link]  
+Активация изменений  
+[_newgrp docker_][no_sudo_link]  
+Проверка работы docker без sudo  
+[_docker run hello-world_][no_sudo_link]
+
+[no_sudo_link]: Pix/p_1_10.png
+
+## 2. Разработка простой программы
