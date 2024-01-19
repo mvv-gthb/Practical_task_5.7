@@ -74,3 +74,4 @@ sudo apt-get update_](Pix/p_1_4.png)
 Синхронизация проекта с удаленным репозиторием
 
 ## 5. Работа с Docker compose
+Из реестра скачан образ [postgres](Pix/p_5_1.png)  
