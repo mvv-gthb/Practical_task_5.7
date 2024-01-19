@@ -1,0 +1,19 @@
+version: "3"
+services:
+  database:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: db_user
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_DB: ceaser
+    ports:
+      - "5432:5432"
+    # detach: yes
+  flask:
+    image: flask_ceaser
+    command: python app.py
+    volumes:
+      - ./flask:/usr/src/app
+    depends_on:
+      - database
